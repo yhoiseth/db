@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 wagtail = "*"
+django-bootstrap4 = "*"
+django-compressor = "*"
+django-libsass = "*"
 
 [requires]
 python_version = "3.7"
