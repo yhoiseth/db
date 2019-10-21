@@ -1,3 +1,9 @@
 {% extends "base.html" %}
-{% load static %}
-{% block content %}{% endblock content %}
+{% load wagtailcore_tags %}
+{% block content %}
+  <div class="row">
+    <div class="col text-justify">
+      {% include_block page.introduction %}
+    </div>
+  </div>
+{% endblock content %}

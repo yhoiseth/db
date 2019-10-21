@@ -16,6 +16,7 @@ wagtail = "*"
 django-bootstrap4 = "*"
 django-compressor = "*"
 django-libsass = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.7"
