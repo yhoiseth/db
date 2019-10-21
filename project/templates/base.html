@@ -26,16 +26,18 @@
 </head>
 
 <body class="bg-dark text-light">
-{% wagtailuserbar %}
-{% bootstrap_messages %}
-<nav class="navbar navbar-dark">
-  <a
-    class="navbar-brand"
-    href="/"
-  >
-    Yngve Hoiseth
-  </a>
-</nav>
-{% block content %}{% endblock %}
+<div class="container">
+  {% wagtailuserbar %}
+  {% bootstrap_messages %}
+  <nav class="navbar navbar-dark">
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      Yngve Hoiseth
+    </a>
+  </nav>
+  {% block content %}{% endblock %}
+</div>
 </body>
 </html>
