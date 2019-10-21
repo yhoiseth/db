@@ -18,6 +18,7 @@ django-compressor = "*"
 django-libsass = "*"
 django-heroku = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
