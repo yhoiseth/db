@@ -17,6 +17,7 @@ django-bootstrap4 = "*"
 django-compressor = "*"
 django-libsass = "*"
 django-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
